@@ -11,12 +11,12 @@ A simple C program that converts PNG images to RAW format (tested and used with 
 
 On Linux or MinGW:
 ```bash
-gcc png2raw.c -o png2raw
+gcc png2raw.c -o png2raw -lm
 ```
 
 On Windows (MinGW):
 ```bash
-gcc png2raw.c -o png2raw.exe
+gcc png2raw.c -o png2raw.exe -lm
 ```
 
 ## Usage
